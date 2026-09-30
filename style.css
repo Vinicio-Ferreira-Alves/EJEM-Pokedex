@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 40px;
+    margin: 0;
+    background: linear-gradient(135deg, #ebebeb, #b9b9b9);
+    display: flex;
+}
+
+.pokedex {
+    width: 400px;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 15px 30px #11111155;
+    border: 3px solid #727272;
+    transition: 0.3s;
+}
+
+.pokedex:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 35px #11111177;
+}
+
+h1 {
+    color: #ff0000;
+    font-size: 60px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px #00000033;
+}
+
+form {
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+input {
+    flex: 1;
+    padding: 12px;
+    border: 2px solid #363636;
+    border-radius: 10px;
+    font-size: 15px;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus {
+    border-color: #ff0000;
+    box-shadow: 0 0 8px #ff000066;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 15px;
+    background-color: #9b9b9b;
+    color: #000000;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #6d6d6d;
+    color: white;
+    transform: scale(1.05);
+}
+
+#resultado {
+    margin-top: 25px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+    border: 1px solid #cccccc;
+}
+
+#imagem {
+    width: 200px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 15px #00000022;
+    transition: 0.3s;
+}
+
+#imagem:hover {
+    transform: scale(1.08);
+}
+
+#nome {
+    text-transform: capitalize;
+    font-size: 32px;
+    margin-bottom: 5px;
+    color: #222222;
+}
+
+#numero {
+    color: #777777;
+    font-size: 18px;
+}
+
+#tipo,
+#altura,
+#peso {
+    font-size: 17px;
+     background-color: #ffffff;
+    padding: 8px;
+    margin: 8px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px #00000011;
+}
+
+#estatisticas {
+    text-align: left;
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    line-height: 1.8;
+    box-shadow: 0 2px 8px #00000022;
+}
+
+#menssagem {
+    color: #cc0000;
+    font-weight: bold;
+    margin-top: 15px;
+}
